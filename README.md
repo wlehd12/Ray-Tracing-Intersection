@@ -8,22 +8,23 @@ Triangle과 Ray의 충돌을 알아보기 위해서는 ray의 Normal 방향벡�
 
 ![Untitled](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/acc2130d-2a70-4456-ad79-54103a06d52b)
 
-![Untitled](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/aa893b33-6db4-44de-a3b4-d1c377b039dc)
+
 
 
 #### 외적(Cross product)
 
 b x a = -a x b
 
-![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/fe64e7d1-1a54-41b1-b81f-0d23805c1091)
+![Untitled](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/aa893b33-6db4-44de-a3b4-d1c377b039dc)
 
 
-![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/28dec303-0b1c-4a73-bb6f-108c22336028)
+![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/b7b37be7-d362-43bd-8b99-86e4b23ca4dd)
+
 
 
 #### 내적(Dot Product)
 
-![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/7c64b881-9bb2-45ad-926d-09e03c0f91aa)
+![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/6177f31c-e4f6-4968-8c0f-6bebd37f7805)
 
 
 ---
@@ -33,6 +34,7 @@ triangle내부에 있을 경우 세가지 경우의 외적 값이 triangl의 법
 Triangle외부에 있을 경우 위와 같은 방식으로 계산하면
     외적의 오른손 법칙에 의해 반대 방향을 나타내는 값이 생긴다.
 
+![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/95e8c91d-1068-4552-8e4f-8484b1c2c24f)
 
 
 
