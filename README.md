@@ -15,22 +15,25 @@ Triangle과 Ray의 충돌을 알아보기 위해서는 ray의 Normal 방향벡�
 
 b x a = -a x b
 
-![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/bd2ce110-ad2e-4c95-bab4-de9333e292ec)
+![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/fe64e7d1-1a54-41b1-b81f-0d23805c1091)
 
-![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/7dc2ec99-f660-442a-9746-09dc5ca786d0)
+
+![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/28dec303-0b1c-4a73-bb6f-108c22336028)
+
 
 #### 내적(Dot Product)
 
-![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/dc4da917-e30b-44ab-9049-f4c40a9abeb3)
+![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/7c64b881-9bb2-45ad-926d-09e03c0f91aa)
+
 
 ---
 
-triangle내부에 있을 경우세가지 경우의 외적 값이 triangl의 법선벡터와 같은 방향이다. 
+triangle내부에 있을 경우 세가지 경우의 외적 값이 triangl의 법선벡터와 같은 방향이다. 
 
-Triangle외부에 있을 경우위와 같은 방식으로 계산하면
-    외적의 오른손 법칙에 의해 반대 방향을      나타내는 값이 생긴다.
+Triangle외부에 있을 경우 위와 같은 방식으로 계산하면
+    외적의 오른손 법칙에 의해 반대 방향을 나타내는 값이 생긴다.
 
-![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/756d1e28-e71e-4b70-a3a5-0eb401ea2424)
+
 
 
 #### Ray 최소화
