@@ -6,9 +6,10 @@ Ray 가 Mesh를 뚫고 지나가게 된다는 것은 Mesh구성하는 triangle�
 
 Triangle과 Ray의 충돌을 알아보기 위해서는 ray의 Normal 방향벡터 , triangle의 세 점 , triangle을 이루는 평면의 법선 벡터
 
-![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/51ffdf9b-eda3-4ac3-a828-37aa3675b751)
+![Untitled](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/acc2130d-2a70-4456-ad79-54103a06d52b)
 
-![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/135ee1a2-1a87-476d-8b9e-59882386349a)
+![Untitled](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/aa893b33-6db4-44de-a3b4-d1c377b039dc)
+
 
 #### 외적(Cross product)
 
@@ -29,7 +30,8 @@ triangle내부에 있을 경우세가지 경우의 외적 값이 triangl의 법
 Triangle외부에 있을 경우위와 같은 방식으로 계산하면
     외적의 오른손 법칙에 의해 반대 방향을      나타내는 값이 생긴다.
 
-![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/0415beac-c2d6-491a-aaaf-26e1f3d859cf)
+![image](https://github.com/wlehd12/Ray-Tracing-Intersection/assets/125344095/756d1e28-e71e-4b70-a3a5-0eb401ea2424)
+
 
 #### Ray 최소화
 
